@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60em;
+    margin-left: 10em;
+}
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+}
+table, td , th {
+    border: 1px solid gray;
+    text-align: center;
+}
+th {
+    background-color: papayawhip;
+    width: 25em;
+}
+td {
+    width: 25em;
+}
+footer {
+    margin-top: 1em;
+}
